@@ -71,7 +71,7 @@ curl -v -X POST \
   },
   "_links": {
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/users/00ub0oNGTSWTBKOLGLNR"
+      "href": "https://{yourOktaDomain}/api/v1/users/00ub0oNGTSWTBKOLGLNR"
     }
   }
 }
