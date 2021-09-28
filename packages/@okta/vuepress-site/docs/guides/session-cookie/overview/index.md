@@ -61,7 +61,7 @@ Be aware of the following requirements:
 ``` http
 HTTP/1.1 302 Moved Temporarily
 Set-Cookie: my_app_session_cookie_name=my_apps_session_cookie_value; Path=/
-Location: https://${yourOktaDomain}/login/sessionCookieRedirect?token=0HsohZYpJgMSHwmL9TQy7RRzuY&redirectUrl=https%3A%2F%2Fwww.example.com%2Fportal%2Fhome
+Location: https://{yourOktaDomain}/login/sessionCookieRedirect?token=0HsohZYpJgMSHwmL9TQy7RRzuY&redirectUrl=https%3A%2F%2Fwww.example.com%2Fportal%2Fhome
 ```
 
 The user's browser will set your app's session cookie and follow the redirect to Okta.  Okta will validate the session token and return a 302 status response that sets a session cookie for Okta and redirects the user's browser back to your landing page.  After the page has loaded the user will have an active session with Okta and will be able to SSO into their applications until the session is expired or the user closes the session (logout) or browser application.

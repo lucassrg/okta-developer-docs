@@ -112,16 +112,16 @@ curl -v -X POST \
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/users"
     },
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/groups"
     },
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafxqCAJWWGELFTYASJ/lifecycle/deactivate"
     }
   }
 }
@@ -209,16 +209,16 @@ curl -v -X POST \
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/users"
     },
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/groups"
     },
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafwvZDWJKVLDCUWUAC/lifecycle/deactivate"
     }
   }
 }
@@ -322,35 +322,35 @@ curl -v -X POST \
   },
   "_links":{
     "help":{
-      "href":"https://${yourOktaDomain}/app/okta_org2org/0oawpacQMRQtvkxOf0g3/setup/help/SAML_2_0/external-doc",
+      "href":"https://{yourOktaDomain}/app/okta_org2org/0oawpacQMRQtvkxOf0g3/setup/help/SAML_2_0/external-doc",
       "type":"text/html"
     },
     "metadata":{
-      "href":"https://${yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/sso/saml/metadata",
+      "href":"https://{yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/sso/saml/metadata",
       "type":"application/xml"
     },
     "appLinks":[
       {
         "name":"login",
-        "href":"https://${yourOktaDomain}/home/okta_org2org/0oawpacQMRQtvkxOf0g3/1857",
+        "href":"https://{yourOktaDomain}/home/okta_org2org/0oawpacQMRQtvkxOf0g3/1857",
         "type":"text/html"
       }
     ],
     "groups":{
-      "href":"https://${yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/groups"
+      "href":"https://{yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/groups"
     },
     "logo":[
       {
         "name":"medium",
-        "href":"https://${yourOktaDomain}/assets/img/logos/okta-logo-admin.f5cef92fdcff9fbc3b1835def5de1314.png",
+        "href":"https://{yourOktaDomain}/assets/img/logos/okta-logo-admin.f5cef92fdcff9fbc3b1835def5de1314.png",
         "type":"image/png"
       }
     ],
     "users":{
-      "href":"https://${yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/users"
+      "href":"https://{yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/users"
     },
     "deactivate":{
-      "href":"https://${yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/lifecycle/deactivate"
+      "href":"https://{yourOktaDomain}/api/v1/apps/0oawpacQMRQtvkxOf0g3/lifecycle/deactivate"
     }
   }
 }
@@ -441,7 +441,7 @@ curl -X POST \
   "settings": {
     "app": {
       "acsURL": null,
-      "orgName": "${yourOktaDomain}"
+      "orgName": "{yourOktaDomain}"
     },
     "notifications": {
       "vpn": {
@@ -472,35 +472,35 @@ curl -X POST \
   },
   "_links": {
     "help": {
-      "href": "https://${yourOktaDomain}/app/cornerstone/0oaugbelRxD4cY31S0g3/setup/help/SAML_2_0/external-doc",
+      "href": "https://{yourOktaDomain}/app/cornerstone/0oaugbelRxD4cY31S0g3/setup/help/SAML_2_0/external-doc",
       "type": "text/html"
     },
     "metadata": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/sso/saml/metadata",
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/sso/saml/metadata",
       "type": "application/xml"
     },
     "appLinks": [
       {
         "name": "login",
-        "href": "https://${yourOktaDomain}/home/cornerstone/0oaugbelRxD4cY31S0g3/165",
+        "href": "https://{yourOktaDomain}/home/cornerstone/0oaugbelRxD4cY31S0g3/165",
         "type": "text/html"
       }
     ],
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/groups"
     },
     "logo": [
       {
         "name": "medium",
-        "href": "https://${yourOktaDomain}/assets/img/logos/cornerstone.a63cddeecf3acc5aae6d4592dcfe8125.png",
+        "href": "https://{yourOktaDomain}/assets/img/logos/cornerstone.a63cddeecf3acc5aae6d4592dcfe8125.png",
         "type": "image/png"
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/users"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oaugbelRxD4cY31S0g3/lifecycle/deactivate"
     }
   }
 }
@@ -598,16 +598,16 @@ curl -v -X POST \
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
     },
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
     },
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
     }
   }
 }
@@ -710,16 +710,16 @@ curl -v -X POST \
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
     },
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
     },
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
     }
   }
 }
@@ -828,16 +828,16 @@ curl -v -X POST \
       }
     ],
     "users": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/users"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/users"
     },
     "groups": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/groups"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/groups"
     },
     "self": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT"
     },
     "deactivate": {
-      "href": "https://${yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/lifecycle/deactivate"
+      "href": "https://{yourOktaDomain}/api/v1/apps/0oafywQDNMXLYDBIHQTT/lifecycle/deactivate"
     }
   }
 }
@@ -1459,7 +1459,7 @@ curl -v -X GET \
     },
     "signOn": {
       "defaultRelayState": "",
-      "ssoAcsUrl": "https://${yourOktaDomain}",
+      "ssoAcsUrl": "https://{yourOktaDomain}",
       "idpIssuer": "https://www.okta.com/${org.externalKey}",
       "audience": "https://example.com/tenant/123",
       "recipient": "https://recipient.okta.com",
@@ -1641,7 +1641,7 @@ curl -v -X GET \
       },
       "signOn": {
         "defaultRelayState": "",
-        "ssoAcsUrl": "https://${yourOktaDomain}",
+        "ssoAcsUrl": "https://{yourOktaDomain}",
         "idpIssuer": "http://www.okta.com/${org.externalKey}",
         "audience": "https://example.com/tenant/123",
         "recipient": "http://recipient.okta.com",
@@ -1751,16 +1751,16 @@ curl -v -X GET \
         }
       ],
       "users": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
       },
       "groups": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
       },
       "self": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
       },
       "deactivate": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
       }
     }
   }
@@ -1831,7 +1831,7 @@ curl -v -X GET \
       },
       "signOn": {
         "defaultRelayState": "",
-        "ssoAcsUrl": "https://${yourOktaDomain}",
+        "ssoAcsUrl": "https://{yourOktaDomain}",
         "idpIssuer": "http://www.okta.com/${org.externalKey}",
         "audience": "https://example.com/tenant/123",
         "recipient": "http://recipient.okta.com",
@@ -1910,10 +1910,10 @@ curl -v -X GET \
         },
         "_links": {
           "app": {
-            "href": "https://${yourOktaDomain}/api/v1/apps/0oabizCHPNYALCHDUIOD"
+            "href": "https://{yourOktaDomain}/api/v1/apps/0oabizCHPNYALCHDUIOD"
           },
           "user": {
-            "href": "https://${yourOktaDomain}/api/v1/users/00ucw2RPGIUNTDQOYPOF"
+            "href": "https://{yourOktaDomain}/api/v1/users/00ucw2RPGIUNTDQOYPOF"
           }
         }
       }
@@ -1966,16 +1966,16 @@ curl -v -X GET \
         }
       ],
       "users": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/users"
       },
       "groups": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/groups"
       },
       "self": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
       },
       "deactivate": {
-        "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
+        "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS/lifecycle/deactivate"
       }
     },
     "_embedded": {
@@ -1996,10 +1996,10 @@ curl -v -X GET \
         },
         "_links": {
           "app": {
-            "href": "https://${yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
+            "href": "https://{yourOktaDomain}/api/v1/apps/0oabkvBLDEKCNXBGYUAS"
           },
           "user": {
-            "href": "https://${yourOktaDomain}/api/v1/users/00ucw2RPGIUNTDQOYPOF"
+            "href": "https://{yourOktaDomain}/api/v1/users/00ucw2RPGIUNTDQOYPOF"
           }
         }
       }
