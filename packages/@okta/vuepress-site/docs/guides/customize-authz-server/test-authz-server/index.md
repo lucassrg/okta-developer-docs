@@ -66,11 +66,11 @@ All of the values are fully documented here: [Obtain an Authorization Grant from
 
 The resulting URL looks like this:
 
-`https://${yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA&response_type=id_token&response_mode=fragment&scope=openid%20profile&redirect_uri=https%3A%2F%2FyourRedirectUriHere.com&state=WM6D&nonce=YsG76jo`
+`https://{yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA&response_type=id_token&response_mode=fragment&scope=openid%20profile&redirect_uri=https%3A%2F%2FyourRedirectUriHere.com&state=WM6D&nonce=YsG76jo`
 
 If you paste this into your browser, you are redirected to the sign-in page for your Okta org with a URL that looks like this:
 
-`https://${yourOktaDomain}/login/login.htm?fromURI=%2Foauth2%2Fv1%2Fauthorize%2Fredirect%3Fokta_key%aKeyValueWillBeHere`
+`https://{yourOktaDomain}/login/login.htm?fromURI=%2Foauth2%2Fv1%2Fauthorize%2Fredirect%3Fokta_key%aKeyValueWillBeHere`
 
 Enter the credentials for a user who is mapped to your OpenID Connect application, and you are directed to the `redirect_uri` that you specified. An ID Token and any state that you defined are also included:
 
@@ -84,7 +84,7 @@ To check the returned ID Token, you can copy the value and paste it into any JWT
  "name": "John Smith",
  "locale": "en-US",
  "ver": 1,
- "iss": "https://${yourOktaDomain}/oauth2/${authorizationServerId}",
+ "iss": "https://{yourOktaDomain}/oauth2/${authorizationServerId}",
  "aud": "fa39J40exampleXdcCwWA",
  "iat": 1498328175,
  "exp": 1498331912,

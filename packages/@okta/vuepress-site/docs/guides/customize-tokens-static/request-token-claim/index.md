@@ -47,7 +47,7 @@ To test the full authentication flow that returns an ID token or an access token
 
     ```bash
     curl -X GET
-    "https://${yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA
+    "https://{yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA
     &response_type=id_token
     &scope=openid
     &redirect_uri=https%3A%2F%2FyourRedirectUriHere.com

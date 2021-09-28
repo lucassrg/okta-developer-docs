@@ -32,7 +32,7 @@ The resulting URL looks something like this:
 
 ```bash
 curl -X GET
-"https://${yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA
+"https://{yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=examplefa39J4jXdcCwWA
 &response_type=token
 &scope=openid%20groups
 &redirect_uri=https%3A%2F%2FyourRedirectUriHere.com
@@ -46,8 +46,8 @@ The decoded JWT looks something like this:
 {
   "ver": 1,
   "jti": "AT.lsZ5XmKiK4KxpKs2IDUBKMRgfMhiB2i2hTBZEM7epAk",
-  "iss": "https://${yourOktaDomain}/oauth2/ausocqn9bk00KaKbZ0h7",
-  "aud": "https://${yourOktaDomain}",
+  "iss": "https://{yourOktaDomain}/oauth2/ausocqn9bk00KaKbZ0h7",
+  "aud": "https://{yourOktaDomain}",
   "iat": 1574270245,
   "exp": 1574273845,
   "cid": "0oaoiuhhch8VRtBnC0h7",

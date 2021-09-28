@@ -28,7 +28,7 @@ To obtain an access token with the configured Groups claim, send a request to th
 The resulting URL looks something like this:
 
 ```bash
-curl --location --request GET 'https://${yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=0oaiw2v8m6unWCvXM0h7
+curl --location --request GET 'https://{yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=0oaiw2v8m6unWCvXM0h7
 &response_type=token
 &scope=openid%20groups
 &redirect_uri=https%3A%2F%2Fexample.com
@@ -45,8 +45,8 @@ The decoded JWT looks something like this:
 {
   "ver": 1,
   "jti": "AT.wYGuabpyb15nr9fmvb5SQGezLYYlMfvRWvUpI8mqoOY",
-  "iss": "https://${yourOktaDomain}/oauth2/ausocqn9bk00KaKbZ0h7",
-  "aud": "https://${yourOktaDomain}",
+  "iss": "https://{yourOktaDomain}/oauth2/ausocqn9bk00KaKbZ0h7",
+  "aud": "https://{yourOktaDomain}",
   "iat": 1574286687,
   "exp": 1574290287,
   "cid": "0oaoesxtxmPf08QHk0h7",

@@ -53,10 +53,10 @@ curl --location --request GET 'https://${yourOktaDomain}/api/v1/groups' \
             }
         ],
         "users": {
-            "href": "https://${yourOktaDomain}/api/v1/groups/00goeudyucv6CcaeV0h7/users"
+            "href": "https://{yourOktaDomain}/api/v1/groups/00goeudyucv6CcaeV0h7/users"
         },
         "apps": {
-            "href": "https://${yourOktaDomain}/api/v1/groups/00goeudyucv6CcaeV0h7/apps"
+            "href": "https://{yourOktaDomain}/api/v1/groups/00goeudyucv6CcaeV0h7/apps"
         }
     }
 }

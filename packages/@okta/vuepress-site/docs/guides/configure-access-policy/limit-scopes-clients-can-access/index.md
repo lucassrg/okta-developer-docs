@@ -64,7 +64,7 @@ Let's test your access policy and get back an access token.
 
      The resulting URL looks like this:
 
-     `https://${yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=${client_id}&response_type=token&response_mode=fragment&scope=openid email&redirect_uri=http://yourRedirectURIHere.com&state=WM6D&nonce=YsG76jo`
+     `https://{yourOktaDomain}/oauth2/${authorizationServerId}/v1/authorize?client_id=${client_id}&response_type=token&response_mode=fragment&scope=openid email&redirect_uri=http://yourRedirectURIHere.com&state=WM6D&nonce=YsG76jo`
 
 4. Open a private browsing session in your browser and paste the URL into the address box. You are redirected to the sign-in page for your Okta org.
 
@@ -78,8 +78,8 @@ Let's test your access policy and get back an access token.
 {
   "ver": 1,
   "jti": "AT.ReRI96X_2Ny3nSf0DepnWLhbAJW5kB0nbl0WqSn22W8",
-  "iss": "https://${yourOktaDomain}/oauth2/${authorizationServerId}",
-  "aud": "https://${yourOktaDomain}",
+  "iss": "https://{yourOktaDomain}/oauth2/${authorizationServerId}",
+  "aud": "https://{yourOktaDomain}",
   "iat": 1594769008,
   "exp": 1594772608,
   "cid": "0oas6ywyq7cwyKUfF0h7",
