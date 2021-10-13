@@ -681,7 +681,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}?expand=groupIdToGroupNameMap",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}?expand=groupIdToGroupNameMap",
 							"host": [
 								"{{url}}"
 							],
@@ -690,7 +690,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}"
+								"{{ruleId}}"
 							],
 							"query": [
 								{
@@ -831,7 +831,7 @@
 							"raw": "{\n  \"type\": \"group_rule\",\n  \"name\": \"{{ruleName}}\",\n  \"conditions\": {\n    \"expression\": {\n      \"type\": \"urn:okta:expression:1.0\",\n      \"value\": \"user.lastName==\\\"Thomas\\\"\"\n    },\n    \"people\": {\n      \"users\": {\n        \"exclude\": [\n          \"{{excludedUserId}}\"\n        ]\n      }\n    }\n  },\n  \"actions\": {\n    \"assignUserToGroups\": {\n      \"groupIds\": [\n        \"{{existingGroupId}}\"\n      ]\n    }\n  }\n}"
 						},
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}",
 							"host": [
 								"{{url}}"
 							],
@@ -840,7 +840,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}"
+								"{{ruleId}}"
 							]
 						}
 					},
@@ -867,7 +867,7 @@
 							"raw": "{\n  \"type\": \"group_rule\",\n  \"name\": \"{{ruleName}}\",\n  \"conditions\": {\n    \"expression\": {\n      \"type\": \"urn:okta:expression:1.0\",\n      \"value\": \"user.lastName eq \\\"Thomas\\\"\"\n    },\n    \"people\": {\n      \"users\": {\n        \"exclude\": [\n          \"{{excludedUserId}}\"\n        ]\n      }\n    }\n  },\n  \"actions\": {\n    \"assignUserToGroups\": {\n      \"groupIds\": [\n        \"{{existingGroupId}}\"\n      ]\n    }\n  }\n}"
 						},
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}",
 							"host": [
 								"{{url}}"
 							],
@@ -876,7 +876,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}"
+								"{{ruleId}}"
 							]
 						}
 					},
@@ -899,7 +899,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}?removeUsers=true",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}?removeUsers=true",
 							"host": [
 								"{{url}}"
 							],
@@ -908,7 +908,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}"
+								"{{ruleId}}"
 							],
 							"query": [
 								{
@@ -937,7 +937,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}",
 							"host": [
 								"{{url}}"
 							],
@@ -946,7 +946,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}"
+								"{{ruleId}}"
 							]
 						}
 					},
@@ -969,7 +969,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}/lifecycle/deactivate",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}/lifecycle/deactivate",
 							"host": [
 								"{{url}}"
 							],
@@ -978,7 +978,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}",
+								"{{ruleId}}",
 								"lifecycle",
 								"deactivate"
 							]
@@ -990,9 +990,22 @@
 					"name": "Activate rule",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
 						"url": {
-							"raw": "{{url}}/api/v1/groups/rules/{{id}}/lifecycle/activate",
+							"raw": "{{url}}/api/v1/groups/rules/{{ruleId}}/lifecycle/activate",
 							"host": [
 								"{{url}}"
 							],
@@ -1001,7 +1014,7 @@
 								"v1",
 								"groups",
 								"rules",
-								"{{id}}",
+								"{{ruleId}}",
 								"lifecycle",
 								"activate"
 							]
